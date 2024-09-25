@@ -1,0 +1,19 @@
+def alphabets(c1,c2):  
+    a1 = ord(c1)
+    a2 = ord(c2)
+    for i in range(a1,a2+1):
+        print(chr(i),end=" ")
+        i += 1
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        c1 = input()
+        c2 = input()
+        alphabets(c1,c2)
+        print()
+
+# Input: 
+# a
+# z
+# Output: 
+# a b c d e f g h i j k l m n o p q r s t u v w x y z
