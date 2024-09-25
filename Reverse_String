@@ -1,0 +1,15 @@
+def reverseString(s):
+    return (s[::-1])
+def main():
+    t=int(input())
+    while(t>0):
+        s=input()
+        print(reverseString(s))
+        t-=1
+if __name__ == "__main__": 
+    main()
+
+# Input: 
+# Hello
+# Output: 
+# olleH
