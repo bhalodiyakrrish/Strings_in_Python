@@ -1,0 +1,14 @@
+def changeCase(s):
+    print(s.title())
+    print(s.upper())
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):  
+        s = input()
+        changeCase(s)
+
+# Input: 
+# hello
+# Output: 
+# Hello
+# HELLO
